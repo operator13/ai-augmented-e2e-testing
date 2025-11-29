@@ -86,7 +86,8 @@ AI_AugmentedE2E/
 
 1. Clone the repository:
 ```bash
-cd /Users/oantazo/Desktop/AI_AugmentedE2E
+git clone https://github.com/operator13/ai-augmented-e2e-testing.git
+cd ai-augmented-e2e-testing
 ```
 
 2. Create a virtual environment:
@@ -96,8 +97,19 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
+
+**Option A: Using pip (recommended for most users)**
 ```bash
+# Install runtime dependencies
 pip install -r requirements.txt
+
+# For development (includes code quality tools)
+pip install -r requirements.txt -r requirements-dev.txt
+```
+
+**Option B: Using Poetry**
+```bash
+poetry install  # Installs all dependencies including dev tools
 ```
 
 4. Install Playwright browsers:
