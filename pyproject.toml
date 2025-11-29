@@ -1,0 +1,82 @@
+[tool.poetry]
+name = "ai-augmented-e2e-toyota"
+version = "1.0.0"
+description = "AI-augmented Playwright E2E testing framework for toyota.com"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playwright = "^1.47.0"
+pytest = "^8.3.0"
+pytest-playwright = "^0.5.0"
+pytest-html = "^4.1.1"
+pytest-xdist = "^3.6.0"
+python-dotenv = "^1.0.0"
+openai = "^1.40.0"
+pillow = "^10.4.0"
+imagehash = "^4.3.1"
+opencv-python = "^4.10.0"
+numpy = "^2.0.0"
+pandas = "^2.2.0"
+pydantic = "^2.8.0"
+requests = "^2.32.0"
+anthropic = "^0.34.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.0"
+flake8 = "^7.1.0"
+mypy = "^1.11.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = """
+    --verbose
+    --strict-markers
+    --tb=short
+    --browser chromium
+    --browser firefox
+    --browser webkit
+    --headed=false
+    --tracing=retain-on-failure
+    --screenshot=only-on-failure
+    --video=retain-on-failure
+    --html=reports/report.html
+    --self-contained-html
+"""
+markers = [
+    "smoke: Smoke tests for critical functionality",
+    "regression: Regression tests",
+    "visual: Visual regression tests",
+    "ai_generated: AI-generated test cases",
+    "critical_path: Critical user journey tests",
+    "performance: Performance tests",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+  | __pycache__
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100

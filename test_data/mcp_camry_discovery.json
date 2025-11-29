@@ -1,0 +1,184 @@
+{
+  "discovery_timestamp": "2025-11-02T23:14:43.612556Z",
+  "total_selectors_discovered": 17,
+  "selectors": [
+    {
+      "selector": "#logo",
+      "element_type": "navigation",
+      "text_content": "",
+      "page_url": "https://www.toyota.com/",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "main-nav-link main-nav-link select-vehicle",
+      "element_type": "navigation",
+      "text_content": "Vehicles",
+      "page_url": "",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-fixed-button button secondary  no-image",
+      "element_type": "navigation",
+      "text_content": "Build",
+      "page_url": "https://www.toyota.com/configurator/build/step/model/year/2026/series/camry",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-button no-image active",
+      "element_type": "navigation",
+      "text_content": "Overview",
+      "page_url": "https://www.toyota.com/camry/#overview",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-button no-image",
+      "element_type": "navigation",
+      "text_content": "Specs",
+      "page_url": "https://www.toyota.com/camry/#specs",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-button no-image",
+      "element_type": "navigation",
+      "text_content": "Gallery",
+      "page_url": "https://www.toyota.com/camry/#gallery",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-button no-image",
+      "element_type": "navigation",
+      "text_content": "Features",
+      "page_url": "https://www.toyota.com/camry/#features",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "menu-button no-image",
+      "element_type": "navigation",
+      "text_content": "Trims",
+      "page_url": "https://www.toyota.com/camry/#trims",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "main-nav-link",
+      "element_type": "button",
+      "text_content": "Vehicles",
+      "page_url": "",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "info-button",
+      "element_type": "button",
+      "text_content": "Info",
+      "page_url": "",
+      "data_attributes": {},
+      "aria_label": "info",
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "see-more",
+      "element_type": "button",
+      "text_content": "see more",
+      "page_url": "",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "slide-cta",
+      "element_type": "button",
+      "text_content": "Explore More",
+      "page_url": "",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "https://www.toyota.com/configurator/build/step/model/year/2026/series/camry",
+      "element_type": "link",
+      "text_content": "Build Now",
+      "page_url": "https://www.toyota.com/configurator/build/step/model/year/2026/series/camry",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "https://www.toyota.com/search-inventory/",
+      "element_type": "link",
+      "text_content": "search inventory",
+      "page_url": "https://www.toyota.com/search-inventory/",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "https://www.toyota.com/local-specials/",
+      "element_type": "link",
+      "text_content": "Local Specials",
+      "page_url": "https://www.toyota.com/local-specials/",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "https://www.toyota.com/camry/features/",
+      "element_type": "link",
+      "text_content": "See All Specs",
+      "page_url": "https://www.toyota.com/camry/features/",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    },
+    {
+      "selector": "https://www.toyota.com/camry/photo-gallery/",
+      "element_type": "link",
+      "text_content": "See Full Gallery",
+      "page_url": "https://www.toyota.com/camry/photo-gallery/",
+      "data_attributes": {},
+      "aria_label": null,
+      "discovered_at": "2025-11-02T23:14:43.612014Z"
+    }
+  ],
+  "categorized": {
+    "navigation": {
+      "vehicles": "main-nav-link main-nav-link select-vehicle",
+      "build": "menu-fixed-button button secondary  no-image",
+      "overview": "menu-button no-image active",
+      "specs": "menu-button no-image",
+      "gallery": "menu-button no-image",
+      "features": "menu-button no-image",
+      "trims": "menu-button no-image"
+    },
+    "buttons": {
+      "vehicles": "main-nav-link",
+      "info": "info-button",
+      "see_more": "see-more",
+      "explore_more": "slide-cta"
+    },
+    "links": {
+      "search_inventory": "a[href='https://www.toyota.com/search-inventory/']",
+      "local_specials": "a[href='https://www.toyota.com/local-specials/']"
+    },
+    "forms": {},
+    "vehicles": {
+      "camry": "a[href*='/camry/']"
+    }
+  }
+}

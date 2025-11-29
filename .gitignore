@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Test results
+test-results/
+playwright-report/
+reports/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Visual baselines
+test_data/visual_baselines/*.png
+!test_data/visual_baselines/.gitkeep
+
+# Videos and screenshots
+videos/
+screenshots/
+traces/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.pytype/
+
+# AI generated data
+ai_insights/
+*.ai-report.json
+generated_tests/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

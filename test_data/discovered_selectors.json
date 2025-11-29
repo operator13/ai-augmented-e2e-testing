@@ -1,0 +1,79 @@
+{
+  "homepage": {
+    "url": "https://www.toyota.com",
+    "elements": {
+      "logo": {
+        "description": "Toyota logo",
+        "selectors": [
+          "img[alt*='logo' i]"
+        ],
+        "found": true
+      },
+      "menu_button": {
+        "description": "Menu button",
+        "selectors": [
+          "[aria-label*='navigation' i]"
+        ],
+        "found": true
+      },
+      "search_button": {
+        "description": "Search button",
+        "selectors": [],
+        "found": false
+      },
+      "vehicles_link": {
+        "description": "Vehicles navigation link",
+        "selectors": [
+          "nav >> text=/vehicles/i"
+        ],
+        "found": true
+      }
+    }
+  },
+  "vehicles": {
+    "url": "https://www.toyota.com/vehicles",
+    "elements": {
+      "page_heading": {
+        "description": "All Vehicles",
+        "selectors": [
+          "text=/All Vehicles/i"
+        ],
+        "found": true
+      },
+      "first_vehicle_card": {
+        "description": "First vehicle card",
+        "selectors": [],
+        "found": false
+      },
+      "vehicle_grid": {
+        "description": "Vehicle grid container",
+        "selectors": [],
+        "found": false
+      }
+    }
+  },
+  "dealers": {
+    "url": "https://www.toyota.com/dealers",
+    "elements": {
+      "zip_input": {
+        "description": "Zip code input",
+        "selectors": [
+          "input[placeholder*='zip' i]"
+        ],
+        "found": true
+      },
+      "search_button": {
+        "description": "Search button",
+        "selectors": [
+          "input[type='search']"
+        ],
+        "found": true
+      },
+      "dealer_results": {
+        "description": "Dealer results container",
+        "selectors": [],
+        "found": false
+      }
+    }
+  }
+}

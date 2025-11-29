@@ -1,0 +1,11 @@
+# Minimal requirements for basic testing
+# Core Testing Framework
+playwright==1.47.0
+pytest==8.3.0
+pytest-playwright==0.5.0
+pytest-html==4.1.1
+python-dotenv==1.0.0
+
+# For basic AI features (optional for first test)
+# anthropic==0.34.0
+# openai==1.40.0

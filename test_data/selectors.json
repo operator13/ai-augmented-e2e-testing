@@ -1,0 +1,89 @@
+{
+  "a[href*='/vehicles-old-broken']": [
+    "[role=\"main\"]"
+  ],
+  "homepage_navigation": {
+    "logo": "#logo",
+    "mobile_logo": "#mobile-logo",
+    "vehicles_menu": "button.main-nav-link.select-vehicle",
+    "shopping_menu": "button.main-nav-link.shopping-tools",
+    "owners_menu": "button.main-nav-link.owners",
+    "user_icon": "a.user-icons[aria-label='user icon']",
+    "hamburger_menu": "a.hamburger[aria-label='hamburger']"
+  },
+  "homepage_buttons": {
+    "info_button": "button.info-button[aria-label='info']",
+    "see_more": "button.see-more",
+    "view_toggle": "button.view-toggle",
+    "cookie_accept": "button.cookie-banner__accept",
+    "cookie_decline": "button.cookie-banner__reject"
+  },
+  "vehicle_links": {
+    "explore_all_vehicles": "a[href='https://www.toyota.com/all-vehicles/']",
+    "search_inventory": "a[href='https://www.toyota.com/search-inventory/']",
+    "local_specials": "a[href='https://www.toyota.com/local-specials/']",
+    "build_and_price": "a[href='https://www.toyota.com/configurator/']",
+    "find_dealer": "a[href='https://www.toyota.com/dealers/#default']"
+  },
+  "vehicle_pages": {
+    "camry": "a[href='https://www.toyota.com/camry/']",
+    "corolla": "a[href*='/corolla/']",
+    "rav4": "a[href*='/rav4/']",
+    "tacoma": "a[href*='/tacoma/']",
+    "tundra": "a[href*='/tundra/']",
+    "highlander": "a[href*='/highlander/']"
+  },
+  "discovered_by_mcp": {
+    "timestamp": "2025-11-02T22:50:26.849Z",
+    "page": "https://www.toyota.com",
+    "navigation_selectors": [
+      "nav a",
+      "nav button",
+      ".main-nav-link"
+    ],
+    "data_attributes": [
+      "[data-aa-action='aa-link']",
+      "[data-di-id]",
+      "[data-aa-link-text]"
+    ]
+  },
+  "navigation": {
+    "vehicles": "main-nav-link main-nav-link select-vehicle",
+    "build": "menu-fixed-button button secondary  no-image",
+    "overview": "menu-button no-image active",
+    "specs": "menu-button no-image",
+    "gallery": "menu-button no-image",
+    "features": "menu-button no-image",
+    "trims": "menu-button no-image"
+  },
+  "buttons": {
+    "vehicles": "main-nav-link",
+    "info": "info-button",
+    "see_more": "see-more",
+    "explore_more": "slide-cta"
+  },
+  "links": {
+    "search_inventory": "a[href='https://www.toyota.com/search-inventory/']",
+    "local_specials": "a[href='https://www.toyota.com/local-specials/']"
+  },
+  "forms": {},
+  "vehicles": {
+    "camry": "a[href*='/camry/']"
+  },
+  "mcp_discovery_metadata": [
+    {
+      "timestamp": "2025-11-02T23:14:43.612329Z",
+      "selectors_added": 14,
+      "categories": [
+        "navigation",
+        "buttons",
+        "links",
+        "forms",
+        "vehicles"
+      ]
+    }
+  ],
+  "a[href=\"#gallery\"].menu-button": [
+    "[role][class*=\"menu-button\"]"
+  ]
+}
