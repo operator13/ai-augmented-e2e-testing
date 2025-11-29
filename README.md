@@ -111,6 +111,12 @@ cp .env.example .env
 # Edit .env with your API keys and configuration
 ```
 
+**Important**: You must add your own API keys to the `.env` file:
+- `OPENAI_API_KEY`: Get from https://platform.openai.com/api-keys
+- `ANTHROPIC_API_KEY`: Get from https://console.anthropic.com/settings/keys
+
+**Security Note**: Never commit your `.env` file to git. It's already in `.gitignore` to protect your API keys.
+
 ## Usage
 
 ### Running Tests
